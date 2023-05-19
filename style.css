@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Paytone One';
+    background-color: antiquewhite;
+    width: 100vw;
+    height: 60vh;
+    flex-direction: column;
+    text-transform: uppercase;
+
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.menu button{
+    background-color: brown;
+    border-radius: 50px;
+    font-family: 'Paytone One';
+    font-size: large;
+    color: aliceblue;
+}
+
+.soma{
+    color: rgb(0, 0, 0);
+    font-family: 'UnifrakturCook';
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
